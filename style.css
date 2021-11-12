@@ -1,12 +1,38 @@
 .jumbotron {
   padding-top: 6rem;
-  background-color: rgb(187, 246, 246);
+  /* background-color: rgb(187, 246, 246); */
 }
 
 #projects {
-  background-color: rgb(187, 246, 246);
+  /* background-color: rgb(187, 246, 246); */
 }
 
 section {
   padding-top: 6rem;
+}
+
+#hero {
+  position: relative;
+}
+
+#hero video {
+  height: 20vh;
+  width: 100%;
+  background-position: absolute;
+  z-index: 10;
+  object-fit: cover;
+}
+
+#hero .content {
+  height: 100%;
+  width: 100%;
+  z-index: 20;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#hero .content h2 {
+  color: #fff;
+  font-weight: 300;
 }
